@@ -1,0 +1,17 @@
+# Local data and student information
+*.db
+*.db-*
+backups/
+student_photos/
+
+# Local configuration and synced workspace material
+.flask_secret_key
+.env
+sources/
+AGENTS.md
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
